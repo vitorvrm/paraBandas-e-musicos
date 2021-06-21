@@ -1,145 +1,30 @@
-*{
+* {
     box-sizing: border-box;
-    }
-body {
-    font-family: helvetica, arial;
     margin: 0;
     padding: 0;
 }
 
-.principal {
-    margin: 20px 100px ;
-}
-
-.header-top {
-    height: 60px;
-    background: #000000;
+.header {
+    width: 1000px;
+    height: 600px;
+    background-color: #141b29;
+    background-image: url(../imagens/bgVl.png);
+    background-repeat: no-repeat;
     position: relative;
 }
 
-.logotipo {
-    margin: 0 0 0 0;
+.img-bg {
+    width: 98%;
+    height: 100vh;
 }
 
-.header-nav {
+.tablet{
     position: absolute;
-    top: 0;
-    right: 0;
-    height: 100%;
-}
-
-.header-nav ul {
-    margin: 0;
-    padding: 0;
-}
-
-.header-nav li{
-    list-style: none;
-    display: inline-block;
-    margin: 7px 50px 0 100px;
-    padding: 11px;
-}
-
-.header-nav a {
-    color: #898989;
-    text-decoration: none;
-    text-transform: uppercase;
-    font-size: 12px;
-    letter-spacing: 5px;
-    transition: color 0.3s linear;
-}
-.header-nav a:hover{
-    color: white;
-}
-
-.portifolio {
-    padding: 50px 100px;
-    text-align: center;
-}
-
-.portifolio h1 {
-    font-size: 36px;
-    color: #252525;
-}
-
-.portifolio p{
-    font-size: 16px;
-    line-height: 2;
-    color: #555;
-}
-
-.foto-lore {
-    border-radius: 200px;
-    margin: 20px 50px 100px 0px;
-    float: right;
-    display: inline-block
-}
-
-.card-lore p{
-    background-color: #fff5e8;
-    letter-spacing: 2px;
-    font-size: 18px;
-    color: #555;
-    margin: 50px 0 0 0px;
-    padding: 100px;
-}
-
-.foto-vitor {
-    margin: 0px 0 100px 50px;
-    border-radius: 300px;
-    float: left;
-    display: inline-block;
-    clear: both;
-}
-
-.card-vitor p{
-    background-color: #ebf5fc;
-    color: #555;
-    font-size: 18px;
-    letter-spacing: 2px;
-    margin: 100px 0px 0px 0px;
-    padding: 100px;
-    text-align: right;
-}
-
-.video {
-    clear: both;
-    
-}
-.video h2 {
-    caret-color: white;
-    text-align: center;
-}
-
-.video1 {
-    display: inline-block;
-    margin: 0 0px 50px 300px;
-    padding: 50px;
-    background-color: black;
-}
-
-#contact{
-    clear: both;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    color: #464646;
-    text-size-adjust: 12px;
-    margin-bottom: 20px;
-    font-size: 12px;
-}
+    top: 10;
+    left: 0;
+    width: 50%;
+    height: 50%;
+    display: inline;
 
 
-footer {
-    clear: both;
-    background-color: black;
-    padding: 1px;
-}
-footer p{
-    
-    color: #898989;
-    text-decoration: none;
-    text-transform: uppercase;
-    font-size: 12px;
-    letter-spacing: 5px;
-    text-align: center;
 }
